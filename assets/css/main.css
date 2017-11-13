@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #57b7e7;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1668,7 +1668,7 @@
 		}
 
 	body {
-		color: #212931;
+		color: #58585a;
 	}
 
 	body, input, select, textarea {
@@ -2319,7 +2319,7 @@
 	}
 
 	label {
-		color: #212931;
+		color: #312121;
 	}
 
 	input[type="text"],
@@ -3422,7 +3422,7 @@
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(40, 143, 186, 1);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3441,7 +3441,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	background: dimgrey;
+	background: rgb(247,146, 30);
 }
 
 		/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -3476,7 +3476,7 @@
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #bff813 !important;
 			}
 
 		#nav strong, #nav b {
