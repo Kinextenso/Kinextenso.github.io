@@ -3318,8 +3318,9 @@
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 20rem;
-		padding-bottom: 8rem;
+		height: 10rem;
+		padding-bottom: 6%;
+		padding-top: 7%;
 		position: relative;
 		text-align: center;
 		z-index: 2;
@@ -3427,6 +3428,7 @@
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
+		position: relative;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
@@ -3435,11 +3437,12 @@
 	
 
 		/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-		.sticky {
-			position: fixed;
-			top: 9%;
-			left: 9.65%;
-		}
+#sticky{
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background: dimgrey;
+}
 
 		/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 		.sticky + .main {
