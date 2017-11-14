@@ -138,7 +138,7 @@
 				$navPanelToggle = $(
 					'<a href="#navPanel" id="navPanelToggle">Menu</a>'
 				)
-					.appendTo($header);
+					.appendTo($topHeader);
 
 			// Panel.
 				$navPanel = $(
