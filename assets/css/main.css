@@ -3321,8 +3321,8 @@
 		-ms-user-select: none;
 		user-select: none;
 		height: 10rem;
-		padding-bottom: 6%;
-		padding-top: 7%;
+		padding-bottom: 5%;
+		padding-top: 8%;
 		position: relative;
 		text-align: center;
 		z-index: 2;
@@ -3424,7 +3424,7 @@
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(40, 143, 186, 1);
+		background: rgba(247, 146, 30, 1);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3443,7 +3443,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 2;
-	background: rgb(247,146, 30);
+	background: rgb(250,250, 250);
 }
 
 		/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -3546,11 +3546,11 @@
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #f7921e;
 				}
 
 					#nav ul.links li.active a {
-						color: #288fba;
+						color: #57b7e7;
 					}
 
 						#nav ul.links li.active a:hover {
