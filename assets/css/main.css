@@ -4307,10 +4307,11 @@
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		display: none;
-		position: sticky;
-		top: 0 !important;
+		position: fixed;
+		top: 0.75rem;
+		right: 0.75rem;
 		border: 0;
-		color: black;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
