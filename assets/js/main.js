@@ -108,6 +108,7 @@
 			$header = $('#header'),
 			$nav = $('#nav'),
 			$main = $('#main'),
+			$topHeader = $('#topHeader'),
 			$navPanelToggle, $navPanel, $navPanelInner;
 
 		// Disable animations/transitions until the page has loaded.
@@ -137,7 +138,7 @@
 				$navPanelToggle = $(
 					'<a href="#navPanel" id="navPanelToggle">Menu</a>'
 				)
-					.appendTo($header);
+					.appendTo($topHeader);
 
 				// Change toggle styling once we've scrolled past the header.
 					$header.scrollex({
