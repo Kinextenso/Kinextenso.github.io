@@ -56,6 +56,26 @@
 		box-sizing: border-box;
 	}
 
+@media screen and (min-width: 740px) {
+	#accueil, #logo {
+		display: block;
+	}
+
+	#accueil-mobile, #logo-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 739px) {
+	#accueil, #logo {
+		display: none;
+	}
+
+	#accueil-mobile, #logo-mobile  {
+		display: block;
+	}
+}
+
 /* Grid */
 
 	.row {
@@ -3326,8 +3346,8 @@
 		-ms-user-select: none;
 		user-select: none;
 		height: 10rem;
-		padding-bottom: 5%;
-		padding-top: 8%;
+		padding-bottom: 6%;
+		padding-top: 9%;
 		position: relative;
 		text-align: center;
 		z-index: 2;
