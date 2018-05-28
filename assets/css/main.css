@@ -1745,7 +1745,7 @@
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 2rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -1855,7 +1855,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #58585a;
 	}
 
 	blockquote {
@@ -3830,7 +3830,7 @@
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #58585a;
 		}
 
 		#footer blockquote {
