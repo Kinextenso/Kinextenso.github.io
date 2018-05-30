@@ -1,4 +1,6 @@
 @import url(font-awesome.min.css);
+/* @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css"); */
+
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
@@ -3465,7 +3467,7 @@
 
 		/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 #sticky{
-	position: sticky;
+	position: relative;
 	top: 0;
 	z-index: 2;
 	background: rgb(255, 255, 255);
@@ -3547,6 +3549,7 @@
 			margin-bottom: 0;
 			padding-left: 0;
 			text-transform: uppercase;
+			justify-content: center;
 		}
 
 			#nav ul.links li {
@@ -3560,7 +3563,7 @@
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -4522,3 +4525,91 @@
 		}
 
 	}
+
+
+.services h2 {
+		font-size: 1.25rem;
+	}
+
+#copyright a.tel:hover, #copyright a.tel {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+iframe {
+	margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+section.contact-map {
+	padding: 0 !important;
+}
+
+
+
+/*---------------------------
+  Blue Button
+---------------------------*/
+
+a.fb-message-blue {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background-color: #0084ff;
+	border: 1px solid #0084ff;
+	width: 127px;
+	height: 35px;
+	line-height: 35px;
+	position: fixed;
+	border-radius: 3px;
+	outline: none;
+	-webkit-transition: all ease .15s;
+	-o-transition: all ease .15s;
+	-moz-transition: all ease .15s;
+	transition: all ease .15s;
+  }
+  a.fb-message-blue:hover {
+	background-color: #2093ff;
+	border: 1px solid #2093ff;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	/* transform: scale(1.15); */ /* uncomment to add zoom effect */
+  }
+  a.fb-message-blue:focus {
+	background-color: #0084ff;
+	border: 1px solid #0084ff;
+	-webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+  }
+  
+  .fb-message-blue i {
+	background-image: url('https://i.imgur.com/hjwozo7.png');
+	background-repeat: no-repeat;
+	background-size: 17px;
+	background-position: 7px 9px;
+	top: -1px;
+	height: 18px;
+	width: 17px;
+	padding: 10px 7px;
+	float: left;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
